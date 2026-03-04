@@ -2,13 +2,9 @@ a = int(input("Enter the first number : "))
 b = int(input("Enter the second number : "))
 c = int(input("Enter the third number : "))
 
-if a>b :
-  if a>c :
-    print("Greatest number is :", a)
-  else: 
-    print("Greatest number is : ", b)
-else :
-  if b > c :
-    print("Greatest number is : ", b)
-  else :
-    print("Greatest number is : ", c)        
+if ( a >= b and a >= c ):
+  print("First number is the greatest", a)
+elif ( b >= c ):
+  print("Second number is greatest", b)  
+else:
+  print("Third number is the greatest", c)  
