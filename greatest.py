@@ -3,8 +3,8 @@ b = int(input("Enter the second number : "))
 c = int(input("Enter the third number : "))
 
 if ( a >= b and a >= c ):
-  print("First number is the greatest", a)
+  print(a ,"is greater than", b ,"and", c)
 elif ( b >= c ):
-  print("Second number is greatest", b)  
+  print(b ,"is greater than", a ,"and", c)  
 else:
-  print("Third number is the greatest", c)  
+  print(c ,"is greater than", a ,"and", b)  
