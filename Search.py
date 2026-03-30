@@ -3,7 +3,7 @@ i = 0
 x = int(input("Enter the number from the list : "))
 
 while(i < len(list_1)):
-    if(list_1[i]==x):
+    if(list_1[i] == x):
       print(f"{x} found at index {i}")
       break
     i=i+1
