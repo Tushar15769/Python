@@ -9,4 +9,4 @@ marks.update({"chem" : x})
 x = int(input("Enter maths : "))
 marks.update({"maths" : x})
 
-print(marks)
+print(marks) 
