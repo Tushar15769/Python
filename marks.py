@@ -8,4 +8,4 @@ elif(marks >= 70):
   print("Grade C")
 else:
   print("Grade D")  
-  
+   
