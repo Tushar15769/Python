@@ -6,4 +6,4 @@ while i <= n :
   sum+=i
   i+=1
 
-print("Total sum : " , sum )  
+print("Total sum : " , sum )
